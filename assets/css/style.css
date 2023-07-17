@@ -69,55 +69,54 @@ body {
   cursor: pointer;
 }
 
-
 /* Clima */
-#weather-data{
-    border-top: 1px solid #00ff88;
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    text-align: center;
-    color: #77ffc0;
+#weather-data {
+  border-top: 1px solid #00ff88;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  color: #77ffc0;
 }
 
-#weather-data h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: .6rem;
+#weather-data h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.6rem;
 }
 
-#weather-data h2 i{
-    font-size: 1rem;
+#weather-data h2 i {
+  font-size: 1rem;
 }
 
-#weather-data span{
-    margin: .6rem;
+#weather-data span {
+  margin: 0.6rem;
 }
 
-#country{
-    height: 15px;
+#country {
+  height: 15px;
 }
 
-#description-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: .6rem 0;    
+#description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
 }
 
-#description{
-    font-weight: bold;
-    text-transform: capitalize;
+#description {
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
-#details-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#details-container #humidity{
-    border-right: 1px solid #00ff88;
-    margin: .6rem;
-    padding: .6rem;
+#details-container #humidity {
+  border-right: 1px solid #00ff88;
+  margin: 0.6rem;
+  padding: 0.6rem;
 }
