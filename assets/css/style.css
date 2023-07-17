@@ -1,0 +1,123 @@
+/* Geral */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  /*
+  background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%);
+  */
+  background: #201b2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  background: #2f2841;
+  box-shadow: 0 10px 40px #00000056;
+  padding: 2rem;
+  color: #fdfdfd;
+  border-radius: 1rem;
+  width: 80vw;
+}
+.form h3 {
+  font-size: 24px;
+  color: #00ff88;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-input-container {
+  display: flex;
+}
+
+.form input {
+  padding: 0.8rem;
+  border: none;
+  flex: 1;
+  border-radius: 4px;
+  background: #514869;
+  color: #f0ffffde;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  width: 60%;
+}
+.form input::placeholder {
+  color: #f0ffff94;
+}
+
+.form button {
+  padding: 0.8rem;
+  min-width: 50px;
+  margin-left: 8px;
+  color: #2b134b;
+  background: #00ff88;
+  box-shadow: 0 10px 40px -12px #00ff8052;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+
+/* Clima */
+#weather-data{
+    border-top: 1px solid #00ff88;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    color: #77ffc0;
+}
+
+#weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+#weather-data h2 i{
+    font-size: 1rem;
+}
+
+#weather-data span{
+    margin: .6rem;
+}
+
+#country{
+    height: 15px;
+}
+
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem 0;    
+}
+
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #humidity{
+    border-right: 1px solid #00ff88;
+    margin: .6rem;
+    padding: .6rem;
+}
