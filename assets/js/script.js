@@ -1,6 +1,4 @@
-// d557e28c4b23e98b106bfd72864f1b66
-
-const apiKey = "d557e28c4b23e98b106bfd72864f1b66";
+const apiKey = "//Digite sua chave da API OpenWeather aqui";
 const apiCountryURL = "https://flagsapi.com/";
 
 const cityInput = document.querySelector("#city-input");
